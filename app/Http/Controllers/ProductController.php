@@ -14,7 +14,7 @@ class ProductController extends Controller
         try{
             $product = new Product();
             $product->name = $request->input('สินค้า xx');
-            $product->price = $request->input('10.5');
+            $product->price = $request->input('99');
             $product->description = $request->input('สินค้าชิ้นใหม่');
             $product->save();
             $response['success'] = "1";
